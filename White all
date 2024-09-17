@@ -1,0 +1,8 @@
+game:GetService("Lighting").Ambient = Color3.new(255, 255, 255)
+game:GetService("Lighting").Brightness = 200
+game:GetService("Lighting").GlobalShadows = true
+game:GetService("Lighting").Outlines = true
+game:GetService("Lighting").TimeOfDay = "07:00:00"
+game:GetService("Lighting").FogColor = Color3.new(255, 255, 255)
+game:GetService("Lighting").FogEnd = 150
+game:GetService("Lighting").FogStart = 0
