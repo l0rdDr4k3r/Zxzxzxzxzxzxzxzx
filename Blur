@@ -1,0 +1,4 @@
+local blur = Instance.new('BlurEffect', game.Lighting)
+blur.Enabled = true
+wait(10)
+blur.Enabled = false
