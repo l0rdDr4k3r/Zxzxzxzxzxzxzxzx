@@ -1,0 +1,19 @@
+function xds(dd)
+		for i,v in next,dd:children''do
+			if(v:IsA'BasePart')then
+				f=Instance.new('Fire',v);
+				f.Size=22;
+				f.Heat=22;
+			end;
+			--coroutine.wrap(function()
+			--for ,_ in pairs(fac) do
+			--local ddec = Instance.new("Decal", v)
+			--ddec.Face = 
+			--ddec.Texture = dec
+			--end end)()
+			if #(v:GetChildren())>0 then
+				xds(v) 
+			end
+		end
+	end
+	xds(game.Workspace)
