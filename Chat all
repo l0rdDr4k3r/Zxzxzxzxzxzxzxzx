@@ -1,0 +1,6 @@
+for i,v in pairs(game.Players:GetChildren()) do
+local plr = v
+game.Chat:Chat(v.Character.Head,"Fuck Y0u, HaHaHa l0rdDr4k3r Was Here Bitch!!1!1","Red")
+wait(0.5)
+game.Chat:Chat(v.Character.Head,"G3t D00med By l0rdDr4k3r Mafaka!1!1!1","Red")
+end
