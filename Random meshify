@@ -1,0 +1,8 @@
+for i,v in pairs(workspace:GetDescendants()) do
+				if v:IsA("BasePart") then
+					local meshes = {"Brick","Cylinder","Head","Sphere","Torso","Wedge"}
+					local mesh = Instance.new("SpecialMesh",v)
+	
+					mesh.MeshType = meshes[math.random(1,#meshes)]
+				end
+			end
