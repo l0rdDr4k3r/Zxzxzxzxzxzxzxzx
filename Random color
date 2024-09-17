@@ -1,0 +1,5 @@
+for i,v in pairs(game.Workspace:GetDescendants()) do
+			if v:IsA("BasePart") then
+				v.Color = Color3.new(math.random(0, 1),math.random(0, 1),math.random(0, 1))
+			end
+		end
