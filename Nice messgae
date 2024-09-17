@@ -1,0 +1,4 @@
+msg = Instance.new("Message",workspace)
+       msg.Text = "Oh N0 Y0uR G4mE G3t D0OmEd bY l0rdDr4k3r Epok1!!1!1!1"
+       wait(2)
+       msg:Destroy()
