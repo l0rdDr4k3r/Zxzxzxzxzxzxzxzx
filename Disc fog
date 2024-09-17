@@ -1,0 +1,6 @@
+while true do
+			game.Lighting.Ambient = Color3.new(math.random() , math.random() , math.random())
+			wait(0.2)
+			game.Lighting.ShadowColor = Color3.new(math.random() , math.random() , math.random())
+			wait(0.2) 
+		end
