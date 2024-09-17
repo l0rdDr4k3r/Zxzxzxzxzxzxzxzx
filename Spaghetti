@@ -1,0 +1,25 @@
+wait(0)
+ 
+for i,v in pairs(game.Players:GetChildren()) do
+end
+rain = coroutine.create(function()
+	while true do
+	wait(0.4)
+		part = Instance.new("Part",workspace)
+		part.Name = "Meshes/toad (3)"
+ 
+		mesh = Instance.new("SpecialMesh",part)
+ 
+		sound = Instance.new("Sound",workspace)
+ 
+		part.CanCollide = true
+		part.Size = Vector3.new(20,20,20)
+		part.Position = Vector3.new(math.random(-300,200),math.random(1,3000),math.random(-300,200))
+ 
+ 
+		mesh.MeshType = "FileMesh"
+		mesh.MeshId = "rbxassetid://830174420"
+		mesh.TextureId = "rbxassetid://16180682630"
+	end
+end)
+coroutine.resume(rain)
