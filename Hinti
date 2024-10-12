@@ -1,0 +1,4 @@
+local h = Instance.new("Hint")
+h.Parent = Workspace 
+h.Text = "l0rdDra4k3r : Im Hacked This Game Mafaka!!1!1"
+end
